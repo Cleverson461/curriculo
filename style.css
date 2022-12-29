@@ -169,7 +169,7 @@ p {
 .about .box {
   display: flex;
   flex-direction: row;
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 .about .box .year_company {
@@ -183,9 +183,16 @@ p {
 }
 
 .about .box .text h4{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
+}
+
+.text p {
+  text-align: center;
 }
 
 .skills .box {
