@@ -191,6 +191,13 @@ p {
   font-size: 16px;
 }
 
+.text {
+  display: inline;
+  padding-left: 40px;
+ 
+}
+
+
 .text p {
   text-align: center;
 }
