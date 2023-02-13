@@ -148,7 +148,9 @@ body {
 }
 
 .about {
+  text-align: center;
   margin-bottom: 50px;
+  
 }
 
 .about:last-child {
@@ -156,7 +158,9 @@ body {
 }
 
 .title2 {
-  color: #003147;
+  border: 1px solid #003147;
+  background-color: #006d9f;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -166,10 +170,17 @@ p {
   color: #333;
 }
 
+.box-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
 .about .box {
-  display: flex;
-  flex-direction: row;
-  margin: 20px 0px;
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
 }
 
 .about .box .year_company {
@@ -183,9 +194,6 @@ p {
 }
 
 .about .box .text h4{
-  display: flex;
-  justify-content:flex-start;
-  align-items: center;
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
@@ -194,9 +202,8 @@ p {
 .text {
   display: inline;
   padding-left: 40px;
- 
-}
 
+}
 
 .text p {
   text-align: center;
